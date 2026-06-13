@@ -1,0 +1,15 @@
+CREATE DATABASE redundancy_db;
+
+USE redundancy_db;
+
+CREATE TABLE users(
+
+id INT AUTO_INCREMENT PRIMARY KEY,
+
+name VARCHAR(100),
+
+email VARCHAR(100) UNIQUE,
+
+phone VARCHAR(15) UNIQUE
+
+);
